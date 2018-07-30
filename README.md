@@ -13,7 +13,7 @@ The implementation should contain the following parts:
 ### The project
 Want to add a new implementation? Add a new folder with the specific language you want to implement it in. 
 
-###The text
+### The text
 A text file called bible.txt resides in the root folder. Copy it to your project and read it in your program.
 
 ### The words
