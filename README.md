@@ -1,6 +1,6 @@
 # Zerubbabel
 
-This is a an attempt to solve a problem in different languages using a a functional programming paradigm, in order to be able to compare the different implementations.
+This is a an attempt to solve a problem in different languages using a a functional programming paradigm, in order to compare the different implementations.
 
 ## The Problem
 
