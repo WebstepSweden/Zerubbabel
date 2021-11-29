@@ -14,3 +14,6 @@ buildNumber.properties
 !/.mvn/wrapper/maven-wrapper.jar
 build
 out
+
+# Ignore Gradle project-specific cache directory
+.gradle

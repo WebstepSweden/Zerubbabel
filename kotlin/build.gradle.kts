@@ -1,12 +1,19 @@
 plugins {
-    kotlin("jvm") version "1.2.50"
-}
-
-dependencies {
-    compile(kotlin("stdlib"))
-    testCompile("io.kotlintest:kotlintest-runner-junit5:3.1.8")
+    id("org.jetbrains.kotlin.jvm") version "1.5.31"
 }
 
 repositories {
-    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom"))
+    implementation("org.jetbrains.kotlin:kotlin-stdlib-jdk8")
+
+    testImplementation(kotlin("test"))
+    testImplementation("io.kotest:kotest-runner-junit5-jvm:5.0.0")
+}
+
+tasks.test {
+    useJUnitPlatform()
 }

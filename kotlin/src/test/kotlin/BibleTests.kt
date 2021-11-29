@@ -1,9 +1,9 @@
-import io.kotlintest.matchers.numerics.shouldBeGreaterThan
-import io.kotlintest.shouldBe
-import io.kotlintest.specs.StringSpec
-import se.webstep.bible.readTheBible
+import io.kotest.core.spec.style.StringSpec
+import io.kotest.matchers.comparables.shouldBeGreaterThan
+import io.kotest.matchers.shouldBe
+import zer.ubba.bel.readTheBible
 
-class SimpleTrollNumberTest : StringSpec({
+class BibleTest : StringSpec({
 
     val bibleDictionary = readTheBible();
 
