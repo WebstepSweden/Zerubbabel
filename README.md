@@ -1,6 +1,8 @@
 # Zerubbabel
 
-This is a an attempt to solve a problem in different languages using a a functional programming paradigm, in order to compare the different implementations.
+![Zerubbabel aka Zrubbie](zerubbabel.jpg?raw=true "Zerubbabel aka Zrubbie")
+
+This is an attempt to solve a problem in different languages using a a functional programming paradigm, in order to compare the different implementations.
 
 ## The Problem
 
@@ -20,7 +22,7 @@ A text file called bible.txt resides in the root folder. Copy it to your project
 Read all the words in the text file into a list or an array. Make them all lowercase.
  
 ### The filters
-* remove stuff like verse numbers etc using the following regex: **^\w+**
+* remove empty words using the following regex: **^\w+**
 * remove the following boring words: **the, and, of, to, that, for, in, i, his, a, with, it, be, is, not, they, thou**
 
 ### The dictionary 
@@ -39,3 +41,4 @@ In order to test your implementation, create the following tests and make them g
 | There's more sheep than goats in the bible | # of times "sheep" appears in the dictionary compared with # of times "goat" does | "sheep" should be bigger than "goat" |
 | Boring words should be removed | # of times "the", "and" or "of" appear in the dictionary | 0 or null |
 | Oh, and there should be a guy named Zerubbabel | # of times "zerubbabel" appears in the dictionary | 11 |
+### 
