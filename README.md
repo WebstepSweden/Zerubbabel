@@ -2,7 +2,7 @@
 
 ![Zerubbabel aka Zrubbie](zerubbabel.jpg?raw=true "Zerubbabel aka Zrubbie")
 
-This is an attempt to solve a problem in different languages using a a functional programming paradigm, in order to compare the different implementations.
+This is an attempt to solve a problem in different languages using a functional programming paradigm, in order to compare the different implementations.
 
 ## The Problem
 
