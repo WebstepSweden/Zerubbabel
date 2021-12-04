@@ -6,7 +6,7 @@ This is an attempt to solve a problem in different languages using a functional 
 
 ## The Problem
 
-Analyse the bible text and create a dictionary with words as keys and the number of places in which they appear as values.
+How many times does the word God appear in the Bible? And how about Jesus? Is there more love than hate in the bible? How about sheep vs goats? And most importantly, is there really a guy named Zerubbabel in the Bible? In this project, we intend to analyze the bible text and create a dictionary with words as keys and the number of appearances as values, in order to draw some conclusions about the questions above.
 
 ## Implementation
 
