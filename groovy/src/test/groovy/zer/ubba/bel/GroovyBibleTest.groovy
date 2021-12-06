@@ -14,7 +14,7 @@ class GroovyBibleTest extends Specification {
 
     def "God should appear a lot of times"() {
         expect:
-        bibleDictionary["god"] == 2303
+        bibleDictionary["god"] == 2302
     }
 
     def "Jesus should be there too"() {

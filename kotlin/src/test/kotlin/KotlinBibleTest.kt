@@ -22,13 +22,13 @@ class KotlinBibleTest : StringSpec({
     "There's more love than hate in the bible" {
         val love = bibleDictionary["love"]!!
         val hate = bibleDictionary["hate"]!!
-        love.shouldBeGreaterThan(hate)
+        love shouldBeGreaterThan hate
     }
 
     "There's more sheep than goats in the bible" {
         val sheep = bibleDictionary["sheep"]!!
         val goats = bibleDictionary["goats"]!!
-        sheep.shouldBeGreaterThan(goats)
+        sheep shouldBeGreaterThan goats
     }
 
     "Boring words should be removed" {

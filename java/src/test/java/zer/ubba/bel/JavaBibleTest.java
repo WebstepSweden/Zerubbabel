@@ -19,17 +19,17 @@ class JavaBibleTest {
 
     @Test
     void theBibleShouldContainManyDifferentWords() {
-        assertEquals(bibleDictionary.size(), 9582);
+        assertEquals(9582, bibleDictionary.size());
     }
 
     @Test
     void godShouldAppearALotOfTimes() {
-        assertEquals(bibleDictionary.get("god"), 2303);
+        assertEquals(2303, bibleDictionary.get("god"));
     }
 
     @Test
     void jesusShouldBeThereToo() {
-        assertEquals(bibleDictionary.get("jesus"), 777);
+        assertEquals(777, bibleDictionary.get("jesus"));
     }
 
     @Test
@@ -55,6 +55,6 @@ class JavaBibleTest {
 
     @Test
     void ohAndThereShouldBeAGuyNamedZerubbabel() {
-        assertEquals(bibleDictionary.get("zerubbabel"), 11);
+        assertEquals(11, bibleDictionary.get("zerubbabel"));
     }
 }
